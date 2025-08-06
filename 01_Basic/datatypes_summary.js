@@ -29,6 +29,33 @@ const myfunction = function(){
     
 }
 
-console.log(typeof isloggedin);
+//console.log(typeof isloggedin);
+
+
+// ***********************
+
+// Stake(Primitive), Heap(Non-Primitive)
+  let myyoutubename = "shoaibalam  "
+
+  let anothername = myyoutubename
+  anothername = "chaiorcode"
+
+  console.log(myyoutubename);
+  console.log(anothername);
+
+  let userOne = {
+    email: "user@google.com",
+    easypaisa: "easy@ep"
+  }
+
+  let userTwo = userOne
+
+  userTwo.email = "shoaib@google.com"
+console.log(userOne.eamil);
+console.log(userTwo.email);
+
+
+
+  
 
 
